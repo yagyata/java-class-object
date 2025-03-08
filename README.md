@@ -1,1 +1,1 @@
-java-clas-object
+java-class-object
