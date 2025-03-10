@@ -37,12 +37,11 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount account1 = new BankAccount("Alice Johnson", "1234567890", 1000.0);
+        BankAccount account1 = new BankAccount("Yagyata", "54623220", 8000);
 
-        account1.displayBalance();
         account1.deposit(500.0);
         account1.withdraw(200.0);
-        account1.withdraw(2000.0); // Trying to withdraw more than available balance
+        account1.withdraw(9000.0); // Trying to withdraw more than available balance
         account1.displayBalance();
     }
 }
